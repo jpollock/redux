@@ -31,6 +31,9 @@ export interface PresenceEventMessage<
 export interface HereNowRequest {
   channels?: string[];
   channelGroups?: string[];
+  sort?: string;
+  filter?: string;
+  
 }
 // end::RDX-type-presence-herenow[]
 
