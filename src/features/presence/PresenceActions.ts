@@ -33,7 +33,6 @@ export interface HereNowRequest {
   channelGroups?: string[];
   sort?: string;
   filter?: string;
-  
 }
 // end::RDX-type-presence-herenow[]
 
